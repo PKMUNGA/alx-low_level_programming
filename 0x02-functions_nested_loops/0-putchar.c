@@ -1,14 +1,22 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- *_putchar - writes the character c to stdout
- * @c:The character to print
+ * main -Entry point of my code,
  *
- * Return on success 1.
- * on error, -1 is returned,and errno is set appropriately.
+ * Return: Always 0
  */
-int _putchar{char c}
-{
-	return(Write(1, &c, 1));
+
+int main(void)
+{	
+ _putchar('_')
+ _putchar('p')
+_ putchar('u')
+_putchar('t')
+_putchar('c')
+_putchar('h')
+_putchar('a')
+_putchar('r')
+_putchar('\n');
+ return (0);
 }
 
