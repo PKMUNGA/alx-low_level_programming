@@ -1,16 +1,16 @@
-#include "main.h"
-/**
- * _isupper - uppercase letters
- * @c char to check
- *
- * Return 0 or 1
- */
+#ifndef MAIN_H
+#define MAIN_H
 
-int_isupper(int c)
+int _putchar(char c);
+int _isupper(int c);
+int _isdigit( int c);
+int mul(inta, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_squares(int size);
+void print_triangle(int size);
 
-{
-	if(c>='A'&&c<='Z')
-		return(1);
-	else
-		return(0);
-}
+#endif
