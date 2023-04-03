@@ -1,12 +1,17 @@
 #include <stdio.h>
 
-void print_most_numbers(void) {
-    int i;
-    for (i = 0; i < 10; i++) {
-        if (i != 2 && i != 4) {
-            _putchar(i + '0');
-        }
-    }
-    _putchar('\n');
+void print_most_numbers(void)
+{
+	int n;
+
+	for (n = 48; n = 58; n++)
+	{
+		if ((n == 50) || (n ==52))
+		{
+			continue;
+		}
+		putchar(n);
+	}
+        putchar(10);
 }
 
